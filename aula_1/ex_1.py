@@ -3,9 +3,8 @@ import json
 
 
 class Git:
-
-        def __init__(self, user, password, repo, *args, **kwargs):
-                    self.user = user
+def __init__(self, user, password, repo, *args, **kwargs):
+self.user = user
                             self.password = password
                                     self.repo = repo
 
